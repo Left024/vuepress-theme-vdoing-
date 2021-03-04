@@ -3,7 +3,7 @@
 ## 安装
 
 ```js
-rclone copy https://github.com/Left024/vuepress-theme-vdoing-.git
+git clone https://github.com/Left024/vuepress-theme-vdoing-.git
 
 cd vuepress-theme-vdoing-/
 
@@ -36,7 +36,7 @@ npm i vuepress-plugin-fulltext-search -D
 
 ```js
 #执行完 npm install 才会生成文件
-#node_modules\vuepress-theme-vdoing\components\Home.vue
+#node_modules/vuepress-theme-vdoing/components/Home.vue
 #搜索关键字，修改成下面这样
 showBanner () { // 当分页不在第一页时隐藏banner栏
         (!this.homeData.postList || this.homeData.postList === 'detailed')
