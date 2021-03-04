@@ -30,6 +30,30 @@ npm i vuepress-plugin-fulltext-search -D
 ['fulltext-search'],
 ```
 
+# Katex
+
+## 安装
+
+```js
+#https://vuepress-theme-hope.github.io/md-enhance/zh/
+npm i -D vuepress-plugin-md-enhance
+```
+
+## 配置
+
+```js
+#docs/.vuepress/config/plugins.js  添加
+[
+      "md-enhance",
+      {
+        // 启用 TeX 支持
+        tex: true,
+      },
+    ],
+```
+
+
+
 # 去除首页 banner
 
 个人不喜欢
